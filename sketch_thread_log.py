@@ -18,14 +18,6 @@ from time import sleep
 import sys
 
 
-# https://docs.python.org/3/library/traceback.html --> lets use traceback
-# make a main thread that instantiates a daemon thread and wait, say, 2s
-# make the daemon run a function that raises an exception at small intervals (say 0.1s)
-# check if the daemon exceptions go to the log file (hope not!)
-# now make that daemon loop use a try/catch which prints explicitly the exception trace
-# check if the exceptions now go to the log
-
-
 def main_thread() -> None:
     """Just the main thread"""
 
@@ -71,10 +63,3 @@ def bad_function() -> None:
 
 if __name__ == "__main__":
     main_thread()
-
-
-# post this in github
-# update readme for the deploy script: mentionit is really usefull if you just use part
-#  of the library for the lambda instance
-
-# make try/catch-print-trace for the main call in ion_rec_sys, and another in the

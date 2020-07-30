@@ -1,0 +1,51 @@
+main thread began
+daemon thread began
+daemon thread running
+
+------------------------------------------------------------
+exception in daemon thread:
+Traceback (most recent call last):
+  File "sketch_thread_log.py", line 51, in daemon_func
+    bad_function()
+  File "sketch_thread_log.py", line 66, in bad_function
+    raise RuntimeError("bad function:  warned you, but you didn't listen...")
+RuntimeError: bad function:  warned you, but you didn't listen...
+------------------------------------------------------------
+
+daemon thread running
+
+------------------------------------------------------------
+exception in daemon thread:
+Traceback (most recent call last):
+  File "sketch_thread_log.py", line 51, in daemon_func
+    bad_function()
+  File "sketch_thread_log.py", line 66, in bad_function
+    raise RuntimeError("bad function:  warned you, but you didn't listen...")
+RuntimeError: bad function:  warned you, but you didn't listen...
+------------------------------------------------------------
+
+daemon thread running
+
+------------------------------------------------------------
+exception in daemon thread:
+Traceback (most recent call last):
+  File "sketch_thread_log.py", line 51, in daemon_func
+    bad_function()
+  File "sketch_thread_log.py", line 66, in bad_function
+    raise RuntimeError("bad function:  warned you, but you didn't listen...")
+RuntimeError: bad function:  warned you, but you didn't listen...
+------------------------------------------------------------
+
+daemon thread running
+
+------------------------------------------------------------
+exception in daemon thread:
+Traceback (most recent call last):
+  File "sketch_thread_log.py", line 51, in daemon_func
+    bad_function()
+  File "sketch_thread_log.py", line 66, in bad_function
+    raise RuntimeError("bad function:  warned you, but you didn't listen...")
+RuntimeError: bad function:  warned you, but you didn't listen...
+------------------------------------------------------------
+
+main thread over
